@@ -18,7 +18,7 @@ module.exports = {
 
   down: async  (queryInterface, Sequelize)=> {
 
-    await queryInterface.bulkDelete('Media');
+    await queryInterface.dropTable('Media');
      
   }
 };
